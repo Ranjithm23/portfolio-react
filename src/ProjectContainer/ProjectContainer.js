@@ -4,7 +4,7 @@ import './ProjectContainer.css';
 const ProjectContainer = () => {
     const MyProjects = [
         {
-            img: 'https://private-user-images.githubusercontent.com/126844190/311443080-d0cf93a8-30e2-4386-8773-52404a36b6cb.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjYyMDQ0MzAsIm5iZiI6MTcyNjIwNDEzMCwicGF0aCI6Ii8xMjY4NDQxOTAvMzExNDQzMDgwLWQwY2Y5M2E4LTMwZTItNDM4Ni04NzczLTUyNDA0YTM2YjZjYi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwOTEzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDkxM1QwNTA4NTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0zODU5OGEwNzE2MTc0YzdhYTVkYzkwYTlmNGM1YTUxNTc0NTQ1NjBjNTQ1YWRlODNiZTBhOWJlZDU3ZDZjZmYyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.uy2h6siuLcGMeXzfiIxBGO0jcG8y8NQaTfLGP9NkGxA',
+            img: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Fecommerce-logo&psig=AOvVaw0ixeFxmFltTB8Iy0wNpj47&ust=1726306606424000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNjgrLPPv4gDFQAAAAAdAAAAABAE',
             title: 'Shopping Website',
             desc: 'Discover the perfect dress for any occasion with our trendy, affordable collection at [Shopper]',
             link: 'https://github.com/Ranjithm23/MERN-ECOM.git',
