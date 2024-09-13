@@ -1,0 +1,72 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 20px;
+}
+
+.experience-box {
+    border: 1px solid white;
+    width: 600px;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly translucent background */
+}
+
+.experience-buttons {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+    margin-bottom: 20px;
+}
+
+.experience-button {
+    color: white;
+    background-color: #d11515;
+    font-size: 14px;
+    padding: 10px 20px; /* Adjust padding for better fit */
+    font-family: "Josefin Sans", sans-serif; /* Use correct font-family */
+    font-weight: 300;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px; /* Rounded corners */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.experience-button:hover {
+    color: #d11515;
+    background-color: white;
+    font-weight: 600;
+}
+
+.experience-container > h1 {
+    color: #d11515;
+    margin-bottom: 20px; /* Space below the title */
+}
+
+.experience-container > h4 {
+    margin: 10px 0; /* Space above and below the h4 */
+}
+
+/* Additional styles for PDF viewer */
+.pdf-container {
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.react-pdf__Page {
+    margin-bottom: 20px;
+}
+
+.react-pdf__Page canvas {
+    max-width: 100%;
+    height: auto !important;
+}

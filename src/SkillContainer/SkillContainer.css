@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.skillcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200px 0;
+}
+.skillcontainer_text {
+    color: white;
+    flex: 0.6;
+    text-align: left;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+.skillcontainer_text > h2 {
+    font-size: 30px;
+}
+.skillcontainer_image {
+    flex: 0.4;
+    text-align: center;
+    margin-right: 100px;
+}
+.skillcontainer_image > img{
+    width: 600px;
+    border-radius: 3px;
+    object-fit: contain;
+}
+.skillcontainer_skillset > h5{
+    font-family: "monstserrat",sans-serif;
+    font-weight: 300;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.skillcontainer_slider >.css-lrbo11-MuiLinearProgress-root {
+    background-color: rgb(88, 88, 88);
+}
+.skillcontainer_slider1 > div > .MuiLinearProgress-bar1 {
+    background-color: rgb(15, 248, 62);
+}
+.skillcontainer_slider2 > div > .css-hud6bj-MuiLinearProgress-bar1 {
+    background-color: rgba(247, 24, 139, 0.938);
+}
+.skillcontainer_slider3 > div > .css-hud6bj-MuiLinearProgress-bar1 {
+    background-color: rgb(228, 2213, 0);
+}
+.skillcontainer_slider4 > div > .css-lrbo11-MuiLinearProgress-root {
+    background-color: rgba(10, 196, 209, 0.612);
+}
+.skillcontainer_slider5 > div > .css-lrbo11-MuiLinearProgress-root {
+    background-color: rgb(65, 189, 16);
+}
+
+.skillcontainer_slider1 > .MuiLinearProgress-bar1{
+    background-color: brown;
+}
+
+/* Common styling for LinearProgress */
+.skillcontainer_slider {
+    width: 100%;
+    margin: 10px 0;
+}
+
+
+.reactjs-progress .MuiLinearProgress-bar {
+    background-color: #61dafb;
+}
+
+
+.java-progress .MuiLinearProgress-bar {
+    background-color: #ea0e50;
+}
+
+
+.javascript-progress .MuiLinearProgress-bar {
+    background-color: #1ce029;
+}
+
+
+.css-progress .MuiLinearProgress-bar {
+    background-color: #f714d8b0;
+}
+
+.sql-progress .MuiLinearProgress-bar {
+    background-color: #f29111;
+}
